@@ -41,7 +41,10 @@ export default function Home({ allUniversities, photos }) {
 export const getStaticProps = async (ctx) => {
   let universities;
   try {
-    const response = await axios('http://localhost:5001/university');
+    // const response = await axios('http://localhost:5001/university');
+    const response = await axios(
+      'https://be-trav4college.herokuapp.com/university',
+    );
     const data = response.data;
     const { universities, photos } = data;
     // console.log(data);
@@ -56,7 +59,7 @@ export const getStaticProps = async (ctx) => {
       },
     };
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return {
       props: {
         allUniversities: [],

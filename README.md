@@ -1,4 +1,4 @@
-You are required to implement the UI below using create react app or NextJS and the corresponding API using NodeJs.
+-You are required to implement the UI below using create react app or NextJS and the corresponding API using NodeJs.
 
 - Each item in the grid is a post containing an image and a university name
 - You should create an API to fetch dummy posts to be displayed
