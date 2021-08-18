@@ -96,6 +96,7 @@ input {
   .header h1 {
     width: 100%;
     margin-bottom: 10px;
+    font-size: 1em;
   }
   .header {
     flex-direction: column;
